@@ -1,0 +1,375 @@
+/* inter font */
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+
+/* nav styles */
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 50px 150px;
+}
+
+.nav-title {
+  font-weight: 700;
+  font-size: 35px;
+
+}
+
+.text-primary {
+  color: #4E47FF;
+}
+
+nav ul li {
+  list-style: none;
+
+}
+
+/* shared styles */
+.btn-primary {
+  background-color: #4E47FF;
+  font-weight: bold;
+  color: white;
+  padding: 18px 40px;
+  border-radius: 8px;
+  border: none;
+}
+
+.btn-secondary {
+  background-color: #4E47FF;
+  font-size: 20px;
+  font-weight: bold;
+  color: white;
+  padding: 18px 40px;
+  border-radius: 10px;
+  border: none;
+  margin-top: 35px;
+}
+
+.text-center {
+  text-align: center;
+}
+
+
+/* banner styles */
+.banner-title {
+  font-weight: 700;
+  font-size: 40px;
+  color: #252432;
+  margin-top: 150px;
+  margin-left: 250px;
+  margin-right: 250px;
+  text-align: center;
+}
+
+header {
+  background-image: url("../Assets/Hero-bg.png");
+}
+
+/* main contents */
+.see-it-content {
+  font-size: 42px;
+  font-weight: bold;
+}
+
+.section {
+  display: flex;
+  justify-content: space-between;
+  margin: 140px 159px;
+}
+
+.see-it-description {
+  font-size: 25px;
+  color: #c0bfc7;
+
+}
+
+
+/* img 1 */
+.wc-mini {
+  border-radius: 50px;
+}
+
+/* section 2 */
+
+/* Section container */
+.stats-container {
+  background-color: #eef0ff;
+  padding: 40px;
+  text-align: center;
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: 50px auto;
+}
+
+/* Section heading */
+.stats-container h2 {
+  font-size: 38px;
+  margin-bottom: 30px;
+  color: #252432;
+  font-weight: bold;
+}
+
+
+.stats-boxes {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+
+.stat {
+  flex: 1;
+  min-width: 150px;
+}
+
+
+.stat h3 {
+  font-size: 80px;
+  color: #4E47FF;
+  margin: 0;
+}
+
+
+.stat p {
+  margin: 8px 0 0;
+  color: #a6a2a2;
+  font-size: 20px;
+}
+
+/*  Challenging part */
+
+.testimonial-section {
+  background-color: #f6f8ff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.testimonial-section h2 {
+  font-size: 42px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  color: #222;
+}
+
+.testimonial-cards {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.testimonial-card {
+  background: rgb(245, 245, 245);
+  border-radius: 12px;
+  padding: 20px;
+  max-width: 300px;
+  text-align: left;
+  box-shadow: 0 6px 40px 0 rgb(216, 211, 211);
+}
+
+.stars {
+  color: #ffc107;
+  font-size: 22px;
+  margin-bottom: 10px;
+}
+
+.testimonial-card h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+  color: #111;
+}
+
+.testimonial-card p {
+  font-size: 15px;
+  color: #555;
+  margin-bottom: 20px;
+}
+
+.reviewer {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviewer img {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+}
+
+.reviewer .date {
+  font-size: 12px;
+  color: #999;
+}
+
+/* ready to focus better */
+.focus-section {
+  background-color: #ffffff;
+  text-align: center;
+  padding: 60px 20px;
+  border-radius: 16px;
+  max-width: 1000px;
+  margin: 60px auto;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+}
+
+.focus-section h2 {
+  font-size: 32px;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 10px;
+}
+
+.focus-section p {
+  font-size: 16px;
+  color: #666;
+  margin-bottom: 30px;
+}
+
+.cta-button {
+  display: inline-block;
+  background-color: #4a4eff;
+  color: #fff;
+  text-decoration: none;
+  padding: 12px 24px;
+  border-radius: 12px;
+  font-weight: 600;
+  margin-bottom: 40px;
+
+}
+
+.cta-button:hover {
+  background-color: #3839e6;
+}
+
+.focus-image img {
+  max-width: 100%;
+  border-radius: 45px;
+  box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* login from section */
+.contact-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  background-color: #FFFFFF;
+  padding: 80px 40px;
+  gap: 40px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.contact-left {
+  flex: 1;
+  min-width: 250px;
+}
+
+.contact-left h2 {
+  font-size: 90px;
+  font-weight: bold;
+  color: #111;
+  line-height: 1.2;
+}
+
+.contact-right {
+  flex: 1;
+  min-width: 300px;
+}
+
+.contact-right form {
+  display: flex;
+  flex-direction: column;
+}
+
+.contact-right label {
+  font-size: 20px;
+  margin-bottom: 6px;
+  font-weight: 500;
+  color: #444;
+}
+
+.contact-right input,
+.contact-right textarea {
+  padding: 12px;
+  margin-bottom: 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 20px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.contact-right textarea {
+  resize: vertical;
+}
+
+.contact-right button {
+  background-color: #4a4eff;
+  color: white;
+  padding: 14px;
+  font-size: 22px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.contact-right button:hover {
+  background-color: #393be0;
+}
+
+/* Last - footer section */
+.modern-footer {
+  background-color: #ffffff;
+  padding: 60px 20px;
+  text-align: center;
+}
+
+.footer-logo {
+  font-size: 100px;
+  font-weight: 800;
+  color: #4a4eff;
+  margin-bottom: 20px;
+}
+
+.footer-description {
+  color: #8987A1;
+  font-size: 16px;
+  max-width: 600px;
+  margin: 0 auto 30px;
+  line-height: 1.6;
+}
+
+.footer-nav {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+
+.footer-nav li a {
+  text-decoration: none;
+  color: #777;
+  font-size: 16px;
+
+}
+
+.footer-nav li a:hover {
+  color: #4a4eff;
+}
+
+
+/* I have finished the program/coding in 2 days because of my job issues ... I am a student studying in South Korea form Bangladesh.. besides study I have to do part-time job to bear my expenses and tuition fee. thats why I could not finished the assignment for 60 marks...
+      Thank you Jhankar Mahabub bhaiya and programming hero team  */
